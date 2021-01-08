@@ -21,6 +21,8 @@ body{
     background-attachment: fixed;
     background-size: 70%;
     color:rgb(32, 179, 184);
+    font-family: monospace;
+    font-style: italic;
 }
 
 .pré{
