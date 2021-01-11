@@ -29,6 +29,7 @@ body{
    color:rgb(255, 255, 255);
    font-size: 30px;
    text-align:center;
+   text-shadow: rgba(0, 0, 0, 0.363) 10px -5px;
 }
 
 .liste1{
@@ -51,12 +52,14 @@ body{
     color:rgb(255, 255, 255);
     font-size: 30px;
     text-align-last: center;
+    text-shadow: rgba(0, 0, 0, 0.363) 10px -5px;
 }
 
 .trav{
     color:rgb(255, 255, 255);
     font-size: 30px;
     text-align-last: center;
+    text-shadow: rgba(0, 0, 0, 0.363) 10px -5px;
 }
 
 
