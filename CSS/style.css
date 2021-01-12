@@ -135,5 +135,13 @@ h1{
 }
 
 p{
-    color: aqua;
+    color:azure;
+}
+
+.pied-de-page {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 44, 49);
+    color: rgb(0, 0, 0);
+    padding: 5px;
 }
