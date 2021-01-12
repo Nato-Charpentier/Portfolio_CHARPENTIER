@@ -68,10 +68,8 @@ body{
 
 
 .sti2d{
-    margin-left: 45%;
-    margin-right: 45%;
-    width: 10%;
-    height: 5%;
+    width: 100%;
+    height: auto;
 }
 
 .nuage{
