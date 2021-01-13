@@ -103,26 +103,11 @@ body{
     z-index: -1;
 }
 
-@media screen and (min-width: 600px) {
-
-body{
-        font-size: 20px;
-    }
 
 .sti2d{
         width: 200px;
         height: 200px;
-    }
 }
- 
-#titre{
-    font-size: 2.5vh;
-}
-
-h1{
-    font-size: 2.5vh;
-}
-
 
 .pied-de-page{
     margin-top: 5%;
