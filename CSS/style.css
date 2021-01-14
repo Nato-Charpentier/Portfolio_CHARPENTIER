@@ -19,11 +19,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-size: 70%;
     color:rgb(32, 179, 184);
     font-family: monospace;
     font-style: italic;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+    transition: all .4s ease;
 }
+
+#titre:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 5px rgba(0,0,0,.25);
+  }
 
 .pré{
    color:rgb(255, 255, 255);
@@ -86,6 +92,17 @@ body{
 .img5{
     max-width: 100%;
     height: auto;
+}
+
+.blur,.img5,.img6 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.blur,.img5:hover,.img6:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
 }
 
 .img6{
