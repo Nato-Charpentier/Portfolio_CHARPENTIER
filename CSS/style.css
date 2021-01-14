@@ -94,17 +94,17 @@ body{
     height: auto;
 }
 
+.img6{
+    max-width: 100%;
+    height: auto;
+}
+
 .blur,.img5,.img6 {
 	filter: blur(4px);
 	transition: .5s ease-in-out;
 }
 .blur,.img5:hover,.img6:hover {
 	filter: blur(0);
-}
-
-.img6{
-    max-width: 100%;
-    height: auto;
 }
 
 .mario{
