@@ -96,13 +96,10 @@ body{
 
 .blur,.img5,.img6 {
 	-webkit-filter: blur(4px);
-	filter: blur(4px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	-webkit-transition: .5s ease-in-out;
 }
 .blur,.img5:hover,.img6:hover {
 	-webkit-filter: blur(0);
-	filter: blur(0);
 }
 
 .img6{
